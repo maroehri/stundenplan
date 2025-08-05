@@ -1,0 +1,32 @@
+\documentclass{stundenplan}
+
+\spSetStartTime{8}  % Früheste Uhrzeit
+\spSetEndTime{19}   % Späteste Uhrzeit
+\spSetHeadline{Wintersemester 2025/26}
+
+\begin{document}
+
+\begin{stundenplan}
+
+% Software Engineering als Typ A (blau/hellblau)
+\eventA{Software-Technik \&\\ Software Engineering}{S 01.213}{Mo}{14:00}{15:30}
+\eventA{Software-Technik \&\\ Software Engineering}{S 07.210}{Di}{15:45}{17:15}
+\eventAalt{Labor Software-Technik \&\\ Software Engineering}{S 07.210}{Di}{17:30}{19:00}
+
+% Informatik 2 als Typ B (grün/hellgrün)
+\eventB{Informatik 2}{S 01.007}{Mo}{15:45}{17:15}
+\eventB{Informatik 2}{S 01.006}{Di}{11:30}{13:00}
+\eventBalt{Labor Informatik 2}{S 07.001}{Mo}{9:45}{11:15}
+
+% ASM als Typ D (rot) - könnte auch Typ C oder Generic sein
+\eventD{ASM Software Engineering}{S 07.101}{Do}{14:00}{15:30}
+\eventD{ASM Software Engineering}{S 07.101}{Do}{15:45}{17:15}
+
+% Meetings als generische Events (grau)
+\eventGeneric{Dekanats JF}{}{Mi}{12:00}{13:00}
+\eventGeneric{Fakultätsrat}{}{Mi}{14:30}{17:00}
+\eventGeneric{Industriekolloquium}{}{Mi}{17:00}{18:00}
+
+\end{stundenplan}
+
+\end{document}
